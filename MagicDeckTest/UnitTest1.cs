@@ -1,18 +1,53 @@
-﻿namespace MagicDeck.tests;
+﻿using System.Security.Cryptography.X509Certificates;
+using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+namespace MagicDeck.tests;
 
-public class UnitTest1
+public class DeckTest
 {
+
     [Fact]
-    public void Add_AddsCardToDeck()
+    public void CheckIfDeckExists()
     {
-        var deck = new Deck<MagicCard>();
-        var card = new MagicCard("Ligthningbolt", "Instant", 1);
+        List<T> Deck= new List<T>();
+        //arrange 
+
+        //act
+        Index<0||Index>=cards.Count)
+        throw new IndexOutOfRangeException("index error")
+
+        //assert
+        Assert.True
     }
 
     [Fact]
-    public void Draw_CardFromDeck()
+    public void CheckIfDeckHasCards()
     {
-        
+        // Given
+    
+        // When
+    
+        // Then
+    }
+
+    [Fact]
+    public void AddCardsAndRemoveCards()
+    {
+        // Given
+    
+        // When
+    
+        // Then
+    }
+
+    [Fact]
+    public void CanItShufflePlay()
+    {
+        // Given
+    
+        // When
+    
+        // Then
     }
 
 }
